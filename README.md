@@ -16,6 +16,53 @@ Uma plataforma web que virou o **registro oficial** de inscrições e atendiment
 - **Revisão e aprovação**: o que a equipe envia fica "em revisão" e só conta nos indicadores depois da aprovação de um administrador.
 - **Prestação de contas**: exportação para planilhas e relatórios, e uma visão pública só com totais por região.
 
+
+## Telas
+> Telas reais do sistema com **dados fictícios**: nomes, locais e CPFs inventados.
+
+### Visão geral
+Os indicadores em tempo real: alunos, atendimentos e o avanço da meta do contrato, o volume por trilha e o mapa de atendimentos por região. O aviso no topo mostra o que a equipe enviou e ainda espera revisão.
+
+![Visão geral com indicadores, volume por trilha e mapa de atendimentos por região](telas/01-visao-geral.webp)
+
+### Alunos
+Busca por nome ou CPF e as 7 trilhas de cada aluno num relance. Os filtros (região, local, turma e situação nas trilhas) ficam no link: dá para compartilhar uma lista já filtrada.
+
+![Lista de alunos com as trilhas concluídas](telas/02-alunos.webp)
+![Lista de alunos com os filtros abertos](telas/03-alunos-filtros.webp)
+
+### Ficha do aluno
+A presença nas trilhas é marcada com um toque. Os dados pessoais ficam ocultos e só aparecem quando um administrador pede para ver.
+
+![Ficha do aluno com o registro de presença nas trilhas](telas/04-aluno-detalhe.webp)
+
+### Revisão e aprovação
+Tudo o que a equipe envia (por foto, planilha ou cadastro manual) espera aqui. O administrador confere, corrige e aprova; só então entra nos indicadores.
+
+![Envio da equipe em revisão, com aprovar, mudar local e rejeitar](telas/05-revisao-envio.webp)
+
+### Regiões e locais
+As regiões administrativas e os locais de atendimento, com alunos e atendimentos de cada um.
+
+![Regiões e locais de atendimento com os totais](telas/06-regioes-e-locais.webp)
+
+### Importação por foto
+A equipe escolhe para onde vão os alunos e fotografa a lista de presença em papel; a IA lê nome e CPF de cada linha.
+
+![Importação por câmera: região, local, turma e trilhas](telas/07-importar-camera.webp)
+
+### Equipe e acessos
+Cada pessoa tem um papel (administrador, equipe ou sem acesso), e as permissões são aplicadas no próprio banco.
+
+![Equipe e acessos com os papéis de cada pessoa](telas/08-equipe-e-acessos.webp)
+
+### No celular
+<p>
+  <img src="telas/09-celular-visao-geral.webp" alt="Visão geral no celular" width="260">
+  &nbsp;
+  <img src="telas/10-celular-alunos.webp" alt="Lista de alunos no celular" width="260">
+</p>
+
 ## Resultados
 - **Mais de 15 mil atendimentos** registrados.
 - Usada pela equipe no dia a dia para consultar e cadastrar inscrições.
@@ -46,9 +93,3 @@ React · TypeScript · Vite · Tailwind CSS · TanStack Query · Zod · Supabase
 
 ## Meu papel
 Projeto de iniciativa própria: idealizei, arquitetei e desenvolvi a plataforma, e sou o administrador (reviso e aprovo o que a equipe envia).
-
-## Telas
-<!-- Coloque os prints na pasta prints/ e descomente as linhas abaixo. Use dados fictícios ou borrados: nada de nome ou CPF real. -->
-<!-- ![Visão geral](prints/visao-geral.png) -->
-<!-- ![Leitura de lista por foto](prints/leitura-por-foto.png) -->
-<!-- ![Revisão e aprovação](prints/revisao.png) -->
