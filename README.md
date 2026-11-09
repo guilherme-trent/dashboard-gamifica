@@ -2,7 +2,7 @@
 
 > **Vitrine do projeto.** O código é privado porque o sistema guarda dados de alunos, muitos deles menores de idade. Aqui estão o problema, a solução, as decisões de arquitetura e os resultados.
 
-*English summary: the official enrollment and attendance system of Gamifica, a public tech-education program in Brasília (DF). It has more than 15,000 recorded sessions, AI reading of handwritten attendance lists with CPF checksum validation, permissions enforced in the database (RLS), and 53 automated tests.*
+*English summary: the official enrollment and attendance system of Gamifica, a public tech-education program in Brasília (DF). It has more than 22,000 recorded sessions, AI reading of handwritten attendance lists with CPF checksum validation, permissions enforced in the database (RLS), and 53 automated tests.*
 
 ## O problema
 O Gamifica leva cursos de programação, jogos, design e marketing a escolas públicas do DF, com laboratórios móveis em 7 trilhas. A operação precisava de um registro único de inscrições e atendimentos, alimentado por listas de presença em papel e planilhas, e de números confiáveis para a prestação de contas. Também precisava proteger os dados dos alunos.
@@ -64,7 +64,7 @@ Cada pessoa tem um papel (administrador, equipe ou sem acesso), e as permissões
 </p>
 
 ## Resultados
-- **Mais de 15 mil atendimentos** registrados.
+- **Mais de 22 mil atendimentos** registrados.
 - Usada pela equipe no dia a dia para consultar e cadastrar inscrições.
 - **53 testes automatizados**, incluindo os do próprio banco de dados.
 
